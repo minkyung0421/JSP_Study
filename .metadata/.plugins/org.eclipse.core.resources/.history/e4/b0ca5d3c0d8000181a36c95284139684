@@ -1,0 +1,31 @@
+<%@page import="java.util.Enumeration"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	String key = request.getParameter("key");
+	String value = request.getParameter("value");
+	
+	if(key != null && value != null){
+		application.setAttribute(key, value);	
+	}
+	
+	//모든 key값을 가져온다
+	Enumeration en = application.getAttributeNames();
+	while(en.hasMoreElements()){
+		String key2 = (String)en.nextElement();
+		Object value2 = application.getAttribute(key2); //String, int, 가 섞여있기 때문에 Object로
+		out.println("<font color = red>" + key2 +"</font>" + "<br>");
+	}
+	
+
+%>
+
+</body>
+</html>

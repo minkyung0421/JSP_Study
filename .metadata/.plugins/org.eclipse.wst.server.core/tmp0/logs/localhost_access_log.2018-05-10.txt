@@ -1,0 +1,10 @@
+127.0.0.1 - - [10/May/2018:09:16:47 +0900] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:16:47 +0900] "GET /Template/main.jsp HTTP/1.1" 200 1184
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:16:49 +0900] "GET /Template/board.jsp HTTP/1.1" 200 1465
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:16:57 +0900] "POST /Template/boardProc.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:16:57 +0900] "GET /Template/boardResult.jsp?send=ok HTTP/1.1" 200 267
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:17:06 +0900] "POST /Template/boardProc.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:17:06 +0900] "GET /Template/boardResult.jsp?send=ok HTTP/1.1" 200 267
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:17:09 +0900] "GET /Template/main.jsp HTTP/1.1" 200 1184
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:17:11 +0900] "GET /Template/choice.jsp HTTP/1.1" 200 1424
+0:0:0:0:0:0:0:1 - - [10/May/2018:09:17:12 +0900] "GET /Template/board.jsp HTTP/1.1" 200 1465

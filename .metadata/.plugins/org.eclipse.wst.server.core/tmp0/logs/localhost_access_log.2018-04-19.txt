@@ -1,0 +1,16 @@
+127.0.0.1 - - [19/Apr/2018:13:13:38 +0900] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:38 +0900] "GET /Template/main.jsp HTTP/1.1" 200 1184
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:38 +0900] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:41 +0900] "GET /Template/board.jsp HTTP/1.1" 200 1465
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:43 +0900] "GET /Template/choice.jsp HTTP/1.1" 200 1424
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:44 +0900] "GET /Template/movieReader.jsp?FILE_NAME=%EC%9C%84%EB%8C%80%ED%95%9C%EC%87%BC%EB%A7%A8.txt HTTP/1.1" 200 2061
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:46 +0900] "GET /Template/choice.jsp HTTP/1.1" 200 1424
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:47 +0900] "GET /Template/movieReader.jsp?FILE_NAME=%EA%B3%A4%EC%A7%80%EC%95%94.txt HTTP/1.1" 200 1907
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:49 +0900] "GET /Template/choice.jsp HTTP/1.1" 200 1424
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:50 +0900] "GET /Template/movieReader.jsp?FILE_NAME=%ED%94%BC%EC%B9%98%ED%8D%BC%ED%8E%99%ED%8A%B83.txt HTTP/1.1" 200 1792
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:54 +0900] "GET /Template/choice.jsp HTTP/1.1" 200 1424
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:58 +0900] "GET /Template/photo.jsp HTTP/1.1" 200 1483
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:58 +0900] "GET /Template/image/image1.jpg HTTP/1.1" 200 73363
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:58 +0900] "GET /Template/image/image4.jpg HTTP/1.1" 200 142871
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:58 +0900] "GET /Template/image/image3.jpg HTTP/1.1" 200 852880
+0:0:0:0:0:0:0:1 - - [19/Apr/2018:13:13:58 +0900] "GET /Template/image/image2.jpg HTTP/1.1" 200 30322
