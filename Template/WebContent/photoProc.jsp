@@ -9,7 +9,7 @@
 <body>
 <center>
 	<table border = 1>
-		<tr>
+		<tr> 
 			<td><img src = "image/image1.jpg" width = "200" height = "300"></td>
 			<td><img src = "image/image2.jpg" width = "200" height = "300"></td>
 		</tr>
